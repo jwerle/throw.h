@@ -1,21 +1,6 @@
-throw.h
-=======
-
-Create and throw errors easily
-
-## install
-
-With [clib](https://github.com/clibs/clib)
-
-```sh
-$ clib install jwerle/throw.h
-```
-
-## usage
-
-```c
 
 #include "throw.h"
+
 
 int
 main (void) {
@@ -31,15 +16,3 @@ main (void) {
 
   return 0;
 }
-```
-
-You can also set the stream where errors are written to by defining the
-`THROW_FD` file descriptor.
-
-```c
-THROW_FD = stderr; // or some other `FILE *` pointer
-```
-
-## license
-
-MIT
