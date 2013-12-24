@@ -1,12 +1,11 @@
-
 //
 // throw.h
 // copyright (c) 2013 joseph werle <joseph.werle@gmail.com>
 //
 
 
-#ifndef __THROW_H__
-#define __THROW_H__ 1
+#ifndef THROW_H
+#define THROW_H 1
 
 #include <stdio.h>
 #include <stdlib.h>
