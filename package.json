@@ -1,5 +1,5 @@
 {
-  "name": "throw.h",
+  "name": "throw",
   "version": "0.0.1",
   "repo": "jwerle/throw.h",
   "description": "Create and throw errors easily",
